@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ferro: Home Strength Coach</title>
-<meta name="description" content="A personal strength coach that lives on your phone. Plans built for your gear, your goals and your body. No account, no cloud.">
+<title>Ferro</title>
+<meta name="description" content="Ferro: a private strength coach for your phone. No account, no cloud.">
 <meta name="theme-color" content="#1c1f23">
-<meta property="og:title" content="Ferro: Home Strength Coach">
-<meta property="og:description" content="A personal strength coach that lives on your phone. Plans built for your gear, your goals and your body. No account, no cloud.">
+<meta property="og:title" content="Ferro">
+<meta property="og:description" content="A private strength coach for your phone. No account, no cloud.">
 <meta property="og:image" content="assets/og.png">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/app-icon.png">
@@ -15,30 +15,30 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<style>
+.home { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
+.home main { flex: 1; display: flex; align-items: center; padding: 48px 0; }
+.home .wrap { max-width: 520px; width: 100%; }
+.mark { height: 64px; width: auto; color: var(--ink); display: block; margin: 0 0 40px; }
+.home h1 { font-size: clamp(56px, 14vw, 88px); margin: 0 0 8px; letter-spacing: 0; }
+.pron { font: 500 15px/1.4 var(--mono); color: var(--muted); margin: 0 0 28px; }
+.pron em { font-family: var(--sans); font-style: italic; margin-left: 8px; }
+.def { margin: 0 0 40px; padding: 0 0 0 20px; border-left: 3px solid var(--ember); font-size: 19px; line-height: 1.5; }
+.def small { display: block; margin-top: 6px; font-size: 15px; color: var(--muted); }
+.purpose { font-size: 17px; color: var(--muted); margin: 0; }
+.home footer { border: 0; padding: 0 0 32px; }
+.home footer .wrap { justify-content: flex-start; gap: 20px; }
+</style>
 </head>
-<body>
-<header class="site"><div class="wrap">
-<a class="logo" href="./"><svg role="img" aria-label="Ferro" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 484 100"><rect x="0" y="0" width="20" height="100" rx="3" fill="currentColor"/><rect x="26" y="0" width="54" height="20" rx="3" fill="#F29A2E"/><rect x="26" y="40" width="40" height="20" rx="3" fill="currentColor"/><rect x="98" y="0" width="20" height="100" rx="3" fill="currentColor"/><rect x="124" y="0" width="50" height="20" rx="3" fill="currentColor"/><rect x="124" y="40" width="38" height="20" rx="3" fill="currentColor"/><rect x="124" y="80" width="50" height="20" rx="3" fill="currentColor"/><rect x="192" y="0" width="20" height="100" rx="3" fill="currentColor"/><path fill="currentColor" fill-rule="evenodd" d="M221,0 H244 A30,30 0 0 1 244,60 H221 A3,3 0 0 1 218,57 V43 A3,3 0 0 1 221,40 H244 A10,10 0 0 0 244,20 H221 A3,3 0 0 1 218,17 V3 A3,3 0 0 1 221,0 Z"/><path fill="currentColor" d="M242,56 L264,56 L278,100 L256,100 Z"/><rect x="296" y="0" width="20" height="100" rx="3" fill="currentColor"/><path fill="currentColor" fill-rule="evenodd" d="M325,0 H348 A30,30 0 0 1 348,60 H325 A3,3 0 0 1 322,57 V43 A3,3 0 0 1 325,40 H348 A10,10 0 0 0 348,20 H325 A3,3 0 0 1 322,17 V3 A3,3 0 0 1 325,0 Z"/><path fill="currentColor" d="M346,56 L368,56 L382,100 L360,100 Z"/><path fill="currentColor" fill-rule="evenodd" d="M442,0 A42,50 0 1 1 441.99,0 Z M442,20 A22,30 0 1 0 442.01,20 Z"/></svg>
-</a>
-<nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
-</div></header>
+<body class="home">
 <main><div class="wrap">
-<img class="icon" src="assets/app-icon.png" alt="" width="96" height="96">
-<p class="label">Home strength coach</p>
-<h1>Your coach. Your gear. Your phone. Nowhere else.</h1>
-<p class="lead">Ferro builds your training week around the equipment you own, the goals you pick and how your body feels today. Then it adds weight when you are ready.</p>
-<span class="soon">Coming soon to the App Store</span>
-<div class="plates" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-<ul class="features">
-<li><strong>Plans for your gear</strong><span>Add or scan your dumbbells, bench and bands. Ferro only programs what you have.</span></li>
-<li><strong>Progress you can measure</strong><span>Last week 3 × 10 at <span class="mono">16</span> kg. Today: <span class="mono">18</span> kg.</span></li>
-<li><strong>Adapts to how you feel</strong><span>A quick pain check-in swaps exercises before they become a problem.</span></li>
-<li><strong>Private by design</strong><span>No account, no cloud, no tracking. Your data stays on your phone.</span></li>
-</ul>
+<svg class="mark" role="img" aria-label="Ferro logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 100" ><rect x="0" y="0" width="20" height="100" rx="3" fill="currentColor"/><rect x="26" y="0" width="54" height="20" rx="3" fill="#F29A2E"/><rect x="26" y="40" width="40" height="20" rx="3" fill="currentColor"/></svg>
+
+<h1>Ferro</h1>
+<p class="pron">/ˈfɛr·ro/<em>noun</em></p>
+<p class="def">Iron.<small>From Latin <i>ferrum</i>. Still <i>ferro</i> in Italian, Portuguese and Galician.</small></p>
+<p class="purpose">A private strength coach for your phone. No account, no cloud.</p>
 </div></main>
-<footer><div class="wrap">
-<span>Ferro. Your coach. Your gear. Your phone. Nowhere else.</span>
-<span><a href="support.html">Support</a> &nbsp; <a href="privacy.html">Privacy</a></span>
-</div></footer>
+<footer><div class="wrap"><a href="support.html">Support</a><a href="privacy.html">Privacy</a></div></footer>
 </body>
 </html>

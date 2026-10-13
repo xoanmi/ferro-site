@@ -1,10 +1,9 @@
-# Ferro site
+<img src="assets/app-icon.png" alt="Ferro" width="72">
 
-Static marketing site for the Ferro app: home, support and privacy pages. No build step, plain HTML and CSS.
+# Ferro
 
-Every push to `main` deploys to GitHub Pages through `.github/workflows/pages.yml`.
+**ferro** */ˈfɛr·ro/* noun. Iron. From Latin *ferrum*.
 
-- App Store support URL: `https://xoanmi.github.io/ferro-site/support.html`
-- App Store privacy policy URL: `https://xoanmi.github.io/ferro-site/privacy.html`
+A private strength coach for your phone. No account, no cloud.
 
-Brand colours, fonts and logo follow the Ferro brand guide.
+**[xoanmi.github.io/ferro-site](https://xoanmi.github.io/ferro-site/)**
