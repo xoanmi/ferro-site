@@ -65,3 +65,8 @@ details p { margin: 10px 0 0; color: var(--muted); }
 footer { border-top: 1px solid var(--line); padding: 28px 0 40px; font-size: 14px; color: var(--muted); }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
 footer a { color: var(--muted); }
+
+nav { align-items: center; }
+nav .gh { display: inline-flex; line-height: 0; padding: 4px; margin-right: -4px; border-radius: 3px; }
+nav .gh:hover { color: var(--ink); }
+nav .gh:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
